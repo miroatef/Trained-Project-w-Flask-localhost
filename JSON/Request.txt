@@ -1,0 +1,15 @@
+{
+    "team_size": 4,
+    "avg_team_experience": 2.5,
+    "innovation_score": 7.5,
+    "funding_amount_usd": 50000,
+    "mentorship_support": 1,
+    "incubation_support": 0,
+    "market_readiness_level": 3,
+    "competition_awards": 1,
+    "business_model_score": 8.0,
+    "technology_maturity": 3,
+    "year": 2022,
+    "institution_type": "Public",
+    "project_domain": "FinTech"
+}

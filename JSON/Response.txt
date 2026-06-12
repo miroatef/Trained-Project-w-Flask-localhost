@@ -1,0 +1,25 @@
+{
+    "success_chance": "75.43%",
+    "success_chance_raw": 75.43,
+    "verdict": "Likely to Succeed",
+    "top_3_success_factors": [
+        {
+            "display_name": "Mentorship & Incubation Support",
+            "direction": "Increases success chance",
+            "strength": "High",
+            "impact_score": 1.87
+        },
+        {
+            "display_name": "Funding Amount (USD)",
+            "direction": "Increases success chance",
+            "strength": "Medium",
+            "impact_score": 0.94
+        },
+        {
+            "display_name": "Innovation Score",
+            "direction": "Decreases success chance",
+            "strength": "Medium",
+            "impact_score": 0.76
+        }
+    ]
+}

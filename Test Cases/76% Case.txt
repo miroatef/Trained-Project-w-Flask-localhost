@@ -1,0 +1,6 @@
+Copy In Windows Powershell vvvvv
+
+Invoke-WebRequest -Uri "http://127.0.0.1:5000/predict"
+ -Method POST
+ -ContentType "application/json"
+ -Body '{"team_size": 2, "avg_team_experience": 3.29, "innovation_score": 0.73, "funding_amount_usd": 47493, "mentorship_support": 1, "incubation_support": 0, "market_readiness_level": 4, "business_model_score": 0.98, "technology_maturity": 1, "year": 2022, "institution_type": "Public", "project_domain": "HealthTech"}'

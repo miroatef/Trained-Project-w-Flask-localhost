@@ -1,0 +1,26 @@
+Copy In Windows Powershell vvvvv
+
+Invoke-WebRequest -Uri "http://127.0.0.1:5000/predict"
+ -Method POST
+ -ContentType "application/json"
+ -Body '{"team_size": 5, "avg_team_experience": 0.70, "innovation_score": 0.72, "funding_amount_usd": 35562, "mentorship_support": 1, "incubation_support": 1, "market_readiness_level": 1, "business_model_score": 0.40, "technology_maturity": 1, "year": 2021, "institution_type": "Private", "project_domain": "AgriTech"}'
+
+
+
+Structured Body vvvvv
+
+{
+    "team_size": 5,
+    "avg_team_experience": 0.70,
+    "innovation_score": 0.72,
+    "funding_amount_usd": 35562,
+    "mentorship_support": 1,
+    "incubation_support": 1,
+    "market_readiness_level": 1,
+    "business_model_score": 0.40,
+    "technology_maturity": 1,
+    "year": 2021,
+    "institution_type": "Private",
+    "project_domain": "AgriTech"
+}
+
